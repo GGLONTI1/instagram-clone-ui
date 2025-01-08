@@ -19,6 +19,7 @@ const Image = ({ path, width, height, alt, className }: ImageType) => {
       width={width}
       height={height}
       alt={alt}
+      lqip={{ active: true, quality: 20 }}
       className={className}
     />
   );
